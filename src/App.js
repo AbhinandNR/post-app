@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    
 
       <BrowserRouter>
       <Routes>
@@ -16,7 +16,7 @@ function App() {
         <Route path='/Delete' element={<Deletepost/>}/>
         <Route path='/Search' element={<Searchpost/>}/>
         <Route path='/Add' element={<Addpost/>}/>
-        
+
         
       </Routes>
         
@@ -25,7 +25,7 @@ function App() {
 
       
       
-    </div>
+   
   );
 }
 

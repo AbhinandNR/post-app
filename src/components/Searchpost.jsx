@@ -9,7 +9,7 @@ const Searchpost = () => {
         <div className="container">
             <div className="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                <div className="row">
+                <div className="row g-3">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <label htmlFor="Userid" className="form-label">UserId</label>
                         <input type="text" className="form-control" />
